@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Navbar from './components/Navbar';
+import Header from './components/Layouts/Header';
+import Usercard from './components/Usercard';
 
 function MyButton() {
   return (
@@ -13,7 +14,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar />
+        <Header />
+        <Usercard />
         <img src={logo} className="App-logo" alt="logo" />
         <p>This is my edit to this page!</p>
         <h1>My Hobby</h1>
