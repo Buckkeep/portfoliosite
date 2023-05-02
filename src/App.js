@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import profilephoto from './components/vader.png'
 import Header from './components/Layouts/Header';
 import Usercard from './components/Usercard';
 
@@ -15,7 +15,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
-        <Usercard />
+        <Usercard 
+        username = {'Vader'}
+        avatar = {profilephoto}
+        age = {'Eternal'}
+        hobby = {'Force Choking'}
+        />
         <img src={logo} className="App-logo" alt="logo" />
         <p>This is my edit to this page!</p>
         <h1>My Hobby</h1>
