@@ -6,4 +6,7 @@
 
 .profile img {
     padding-top: 2.5vh;
+    max-width: 20vh;
+    display: block;
+    margin: auto;
 }
