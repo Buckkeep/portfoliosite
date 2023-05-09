@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.purpleitalic {
+  color: purple;
+  font-style: italic;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+#book {
+  font-style: italic;
+}
+
+#film {
+  color: blue;
+  font-weight: 800;
+  text-decoration: underline;
+}
+

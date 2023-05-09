@@ -4,12 +4,9 @@ import vaderphoto from './components/vader.png';
 import obiwan from './components/obiwan.png';
 import Header from './components/Layouts/Header';
 import Usercard from './components/Usercard';
-
-function MyButton() {
-  return (
-    <button>I'm a button</button>
-  );
-}
+import Main from './components/Layouts/Main';
+import Button from './components/Button';
+import classNames from 'classnames';
 
 function App() {
   return (
@@ -28,6 +25,9 @@ function App() {
         age = {'Too Old'}
         hobby = {'Babysitting'}
         />
+
+        <Main />
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>This is my edit to this page!</p>
         <h1>My Hobby</h1>
@@ -37,7 +37,7 @@ function App() {
         <h1>Why do I enjoy it</h1>
         I love the open world of XC Definitive Edition. I also love slaying monsters.
         
-        <p><MyButton /></p>
+        <p><Button /></p>
 
         <a
           className="App-link"
