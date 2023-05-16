@@ -5,8 +5,10 @@ import obiwan from './components/obiwan.png';
 import Header from './components/Layouts/Header';
 import Usercard from './components/Usercard';
 import Main from './components/Layouts/Main';
-import Button from './components/Button';
+//import Button from './components/Button';
 import classNames from 'classnames';
+import Button from './components/Buttons/Button';
+import ProfileCard from './components/ProfileCard';
 
 function App() {
   return (
@@ -28,7 +30,7 @@ function App() {
 
         <Main />
 
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" />
         <p>This is my edit to this page!</p>
         <h1>My Hobby</h1>
         Playing Xenoblade Chronicles
@@ -37,7 +39,12 @@ function App() {
         <h1>Why do I enjoy it</h1>
         I love the open world of XC Definitive Edition. I also love slaying monsters.
         
-        <p><Button /></p>
+{/*         <p> <Button message="Dos" /></p>
+
+        <p><Button message="hello"/></p>
+ */}
+        <ProfileCard />
+
 
         <a
           className="App-link"
